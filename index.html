@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Asad Ullah - Portfolio</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="/assets/style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3476/3476457.png" type="image/x-icon">
+        
+        
+
+    </head>
+    <body>
+        <div class="bg-animation"></div>
+        <div class="grid-overlay"></div>
+
+        <nav>
+            <div class="logo">Asad Ullah</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="profile-content">
+                <div class="profile-pic-container">
+                    <div class="orbit-ring">
+                        <div class="orbit-dot"></div>
+                    </div>
+                    <div class="orbit-ring">
+                        <div class="orbit-dot"></div>
+                    </div>
+                    <!-- <div class="profile-pic">
+                    <svg width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:rgba(99,102,241,0.8);stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:rgba(236,72,153,0.8);stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="80" fill="url(#grad1)"/>
+                        <circle cx="100" cy="80" r="30" fill="rgba(255,255,255,0.9)"/>
+                        <ellipse cx="100" cy="150" rx="50" ry="60" fill="rgba(255,255,255,0.9)"/>
+                    </svg>
+                </div> -->
+                    <div class="profile-pic">
+                        <img src="assets/images/my_pic.png"
+                            alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="profile-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1>Asad Ullah</h1>
+                    <p class="subtitle">A Frontend Developer<span
+                            class="typing-cursor"></span></p>
+                    <div class="btn-group">
+                        <button
+                            class="btn btn-color-2"
+                            onclick="window.open('./assets/MyResume.pdf')">
+                            Download CV
+                        </button>
+                        <button class="btn btn-secondary"
+                            onclick="location.href='#contact'">Contact
+                            Info</button>
+                    </div>
+                    <div class="socials">
+                        <a href="https://linkedin.com/in/asadullah3"
+                            target="_blank" class="social-icon">
+                            <svg width="28" height="28" fill="white"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://github.com/Asadullah523"
+                            target="_blank" class="social-icon">
+                            <svg width="28" height="28" fill="white"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div style="width: 100%;">
+                <div class="section-header fade-in">
+                    <p class="subtitle">Get To Know More</p>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-cards fade-in-left">
+                        <div class="card">
+                            <div class="card-icon">💼</div>
+                            <h3>Experience</h3>
+                            <p>2+ years<br>Frontend Development</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🎓</div>
+                            <h3>Education</h3>
+                            <p>B.Sc Software Engineering</p>
+                        </div>
+                    </div>
+                    <div class="about-text fade-in-right">
+                        <p>Hi, I’m a full-stack developer who enjoys
+                            building things that look good and work
+                            even better. I mostly work with the MERN
+                            stack, but I love learning new tools and
+                            pushing myself to grow with every
+                            project.</p>
+                        <br>
+                        <p>For me, coding is more than just writing
+                            lines of code—it’s about solving problems
+                            and creating experiences people actually
+                            enjoy using. I’m always curious, always
+                            improving, and always ready to take on the
+                            next challenge.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-header fade-in">
+                <p class="subtitle">Explore My</p>
+                <h2>Experience</h2>
+            </div>
+            <div class="experience-grid">
+                <div class="skill-category scale-in">
+                    <h3>Frontend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 28L4 3h24l-2 25-10 3-10-3z"
+                                        fill="#E34F26" />
+                                    <path
+                                        d="M26 5H16v24.5l8-2.5 2-22z"
+                                        fill="#F06529" />
+                                    <path
+                                        d="M9.5 17.5L8.5 8H24l-.5 3h-12l.5 3.5h11L22 24l-6 2-6-2-.5-5h3l.5 2.5 3 1 3-1 .5-4h-10z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 28L4 3h24l-2 25-10 3-10-3z"
+                                        fill="#1572B6" />
+                                    <path
+                                        d="M26 5H16v24.5l8-2.5 2-22z"
+                                        fill="#33A9DC" />
+                                    <path
+                                        d="M19.5 17.5h-6L13 14h6.5l.5-3H9.5l1.5 12h9l-.5 3.5-3.5 1-3.5-1-.5-2H9l.5 4 6.5 2 6.5-2 1-10z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS</h4>
+                                <p>Experienced</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32"
+                                        rx="2" fill="#F7DF1E" />
+                                    <path
+                                        d="M20.63 20.42c.56.92 1.3 1.6 2.6 1.6.88 0 1.44-.44 1.44-1.05 0-.73-.58-1-1.54-1.42l-.53-.23c-1.53-.65-2.55-1.47-2.55-3.2 0-1.6 1.22-2.8 3.12-2.8 1.35 0 2.33.47 3.03 1.7l-1.66 1.06c-.37-.66-.77-.92-1.37-.92-.62 0-1.02.4-1.02.92 0 .65.4.92 1.32 1.32l.53.23c1.8.77 2.82 1.56 2.82 3.33 0 1.9-1.5 2.95-3.5 2.95-1.96 0-3.23-.93-3.85-2.16l1.76-1.03zm-8.03.15c.33.58.63 1.08 1.35 1.08.7 0 1.13-.27 1.13-1.33v-7.2h2.16v7.24c0 2.2-1.28 3.2-3.15 3.2-1.7 0-2.68-.88-3.18-1.93l1.7-1.06z"
+                                        fill="#000" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="2"
+                                        fill="#61DAFB" />
+                                    <ellipse cx="16" cy="16" rx="13"
+                                        ry="5" stroke="#61DAFB"
+                                        stroke-width="1.5"
+                                        fill="none" />
+                                    <ellipse cx="16" cy="16" rx="13"
+                                        ry="5" stroke="#61DAFB"
+                                        stroke-width="1.5" fill="none"
+                                        transform="rotate(60 16 16)" />
+                                    <ellipse cx="16" cy="16" rx="13"
+                                        ry="5" stroke="#61DAFB"
+                                        stroke-width="1.5" fill="none"
+                                        transform="rotate(120 16 16)" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32"
+                                        rx="2" fill="#3178C6" />
+                                    <path
+                                        d="M18.5 20.5v2c.6.3 1.3.5 2 .7.7.2 1.5.3 2.3.3.8 0 1.5-.1 2.2-.3.6-.2 1.2-.5 1.6-.9.5-.4.8-.9 1.1-1.5.3-.6.4-1.3.4-2.1 0-.6-.1-1.2-.3-1.7-.2-.5-.5-.9-.9-1.3-.4-.4-.9-.7-1.4-1-.6-.3-1.2-.5-1.9-.8-.5-.2-.9-.3-1.3-.5-.3-.2-.6-.3-.9-.5-.2-.2-.4-.4-.5-.6-.1-.2-.2-.5-.2-.7 0-.3.1-.5.2-.7.1-.2.3-.4.5-.5.2-.1.5-.2.7-.3.3-.1.6-.1.9-.1.4 0 .8.1 1.2.2.4.1.8.3 1.1.5l.7-2c-.5-.2-1-.4-1.5-.5-.6-.1-1.2-.2-1.9-.2-.8 0-1.5.1-2.2.3-.6.2-1.2.5-1.6.9-.5.4-.8.9-1.1 1.4-.3.6-.4 1.2-.4 1.9 0 .6.1 1.2.3 1.7.2.5.5.9.9 1.3.4.4.9.7 1.5 1 .6.3 1.2.6 1.9.8.5.2.9.4 1.2.5.4.2.6.4.9.6.2.2.4.4.5.7.1.2.2.5.2.8 0 .3-.1.6-.2.8-.2.2-.4.4-.6.6-.3.2-.6.3-1 .3-.4.1-.8.1-1.2.1-.5 0-1.1-.1-1.6-.2-.5-.1-1-.3-1.5-.6zM13 10.5H7v2h4v11h2v-11h4v-2h-4z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>TypeScript</h4>
+                                <p>Basic</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 8C12.8 8 11.2 9.6 10.4 12.8c1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C18.066 13.818 19.427 15.2 22.4 15.2c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C20.734 9.382 19.373 8 16.4 8h-.4zM10.4 15.2C7.2 15.2 5.2 16.8 4.4 20c1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C14.734 16.582 13.373 15.2 10.4 15.2z"
+                                        fill="#06B6D4" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Tailwind CSS</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category scale-in">
+                    <h3>Backend Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 30c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14z"
+                                        fill="#8CC84B" />
+                                    <path
+                                        d="M16 6c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S21.523 6 16 6z"
+                                        fill="#689F38" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 4L4 10l12 6 12-6-12-6zM4 22l12 6 12-6M4 16l12 6 12-6"
+                                        stroke="#FFFFFF"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        fill="none" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Express.js</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.5 3.5c-.2-.5-.4-.9-.5-.9s-.3.4-.5.9c-.3.8-.7 2-1.4 3.6-2.4 5.4-4.6 8-6 9.8-1 1.3-1.6 2.1-1.6 3.6 0 4.4 3.6 8 8 8s8-3.6 8-8c0-1.5-.6-2.3-1.6-3.6-1.4-1.8-3.6-4.4-6-9.8-.7-1.6-1.1-2.8-1.4-3.6zm-.5 22.5c-.3 0-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5s.5.2.5.5v2c0 .3-.2.5-.5.5z"
+                                        fill="#47A248" />
+                                    <path
+                                        d="M16 25.5c.3 0 .5.2.5.5v2c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5z"
+                                        fill="#47A248" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MongoDB</h4>
+                                <p>Basic</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="checkmark">
+                                <svg viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M30.59 14.87L17.7 1.98c-.78-.78-2.05-.78-2.83 0l-2.47 2.47 3.13 3.13c.83-.28 1.79-.09 2.45.57.67.67.86 1.65.56 2.49l3.02 3.02c.84-.3 1.82-.11 2.49.56a2.43 2.43 0 010 3.44 2.43 2.43 0 01-3.44 0 2.43 2.43 0 01-.52-2.66l-2.82-2.82v7.42c.59.29 1.12.71 1.54 1.26.42.55.7 1.2.84 1.9.14.7.13 1.42-.03 2.11a4.2 4.2 0 01-1.02 1.89c-.52.52-1.16.92-1.87 1.16a4.21 4.21 0 01-4.34-.91 4.21 4.21 0 01-1.16-1.87 4.21 4.21 0 011.19-4.37c.42-.38.91-.67 1.44-.87v-7.49a4.21 4.21 0 01-2.28-5.52L9.47 6.66l-8.05 8.05c-.78.78-.78 2.05 0 2.83l12.89 12.89c.78.78 2.05.78 2.83 0l12.82-12.82c.78-.78.78-2.05 0-2.83z"
+                                        fill="#F05032" />
+                                </svg>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-header fade-in">
+                <p class="subtitle">Browse My Recent</p>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- FitNest Project -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/fitnest.png"
+                            alt="FitNest Project Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>FitNest (Gym)</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/gym.git'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://gym-wine-six.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mustang Project -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/mustang.png"
+                            alt="Mustang Project Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mustang</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/mustang.git'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://mustang-alpha.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Netflix Clone Project -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/netflix.png"
+                            alt="Netflix Clone Project Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Netflix Clone</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/netflix'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://netflix-three-sable.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calculator Project -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/calculator.png"
+                            alt="FitNest Project Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Calculator</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/CalCulator1.git'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://cal-culator1.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weather Project -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/Weather.png"
+                            alt="Mustang Project Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/Weather.git'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://weather-sage-three-97.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Commerace -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="assets/images/ecommerce.png"
+                            alt="Ecomemerce Logo">
+                    </div>
+                    <div class="project-info">
+                        <h3>Ecomemerce</h3>
+                        <div class="project-buttons">
+                            <button class="project-btn"
+                                onclick="location.href='https://github.com/Asadullah523/Ecommerce_website/tree/main'">Github</button>
+                            <button class="project-btn"
+                                onclick="location.href='https://ecommerce-website-mu-self.vercel.app/'">Live
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-header fade-in">
+                <p class="subtitle">Get In Touch</p>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:example@gmail.com"
+                    class="contact-card scale-in">
+                    <div class="contact-icon">📧</div>
+                    <p>asadullah88801@gmail.com</p>
+                </a>
+                <a href="https://linkedin.com"
+                    class="contact-card scale-in">
+                    <div class="contact-icon">💼</div>
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p>Copyright © 2025 Asad Ullah. All Rights Reserved.</p>
+        </footer>
+        <script src="/assets/script.js"></script>
+    </body>
+</html>
