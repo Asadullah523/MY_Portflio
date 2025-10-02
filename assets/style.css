@@ -926,6 +926,15 @@ section {
     position: relative;
     z-index: 1;
 }
+@media (max-width: 600px) {
+  .contact-card p {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
 
 @keyframes pulse-icon {
     0%, 100% { transform: scale(1); }
