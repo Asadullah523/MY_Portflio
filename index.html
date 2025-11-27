@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Ullah | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+    <div class="bg-gradient"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">Asad.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#profile" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="profile" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">Available for work</span>
+                    <h1>I'm <span class="gradient-text typing-text"></span><span class="cursor">|</span></h1>
+                    <p class="subtitle">Building pixel-perfect, engaging, and accessible web experiences.</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="assets/cv.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+                    </div>
+                    <div class="socials-hero">
+                        <a href="https://linkedin.com/in/asadullah3" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                        <span class="separator">/</span>
+                        <a href="https://github.com/Asadullah523" target="_blank" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="orbit-container">
+                        <div class="orbit-ring ring-1"></div>
+                        <div class="orbit-ring ring-2"></div>
+                        <div class="profile-card glass-card tilt-element">
+                            <img src="assets/images/my_pic.png" alt="Asad Ullah" class="profile-img">
+                            <div class="card-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2>Passionate about <br>creating <span class="gradient-text">impact</span></h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text glass-panel">
+                        <p>I'm a software engineering graduate with a knack for turning designs into living, breathing
+                            websites. My journey started with a curiosity for how things work on the web, and it has
+                            evolved into a passion for building robust applications using the MERN stack.</p>
+                        <p>I believe in clean code, user-centric design, and continuous learning. When I'm not coding,
+                            I'm exploring new tech trends or refining my UI/UX skills.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Years Exp.</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-stack glass-panel">
+                        <h3>Tech Stack</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card" title="HTML5">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 28L4 3h24l-2 25-10 3-10-3z" fill="#E34F26" />
+                                    <path d="M26 5H16v24.5l8-2.5 2-22z" fill="#F06529" />
+                                    <path
+                                        d="M9.5 17.5L8.5 8H24l-.5 3h-12l.5 3.5h11L22 24l-6 2-6-2-.5-5h3l.5 2.5 3 1 3-1 .5-4h-10z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">HTML</span>
+                            </div>
+                            <div class="skill-card" title="CSS3">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 28L4 3h24l-2 25-10 3-10-3z" fill="#1572B6" />
+                                    <path d="M26 5H16v24.5l8-2.5 2-22z" fill="#33A9DC" />
+                                    <path
+                                        d="M19.5 17.5h-6L13 14h6.5l.5-3H9.5l1.5 12h9l-.5 3.5-3.5 1-3.5-1-.5-2H9l.5 4 6.5 2 6.5-2 1-10z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">CSS</span>
+                            </div>
+                            <div class="skill-card" title="JavaScript">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="2" fill="#F7DF1E" />
+                                    <path
+                                        d="M20.63 20.42c.56.92 1.3 1.6 2.6 1.6.88 0 1.44-.44 1.44-1.05 0-.73-.58-1-1.54-1.42l-.53-.23c-1.53-.65-2.55-1.47-2.55-3.2 0-1.6 1.22-2.8 3.12-2.8 1.35 0 2.33.47 3.03 1.7l-1.66 1.06c-.37-.66-.77-.92-1.37-.92-.62 0-1.02.4-1.02.92 0 .65.4.92 1.32 1.32l.53.23c1.8.77 2.82 1.56 2.82 3.33 0 1.9-1.5 2.95-3.5 2.95-1.96 0-3.23-.93-3.85-2.16l1.76-1.03zm-8.03.15c.33.58.63 1.08 1.35 1.08.7 0 1.13-.27 1.13-1.33v-7.2h2.16v7.24c0 2.2-1.28 3.2-3.15 3.2-1.7 0-2.68-.88-3.18-1.93l1.7-1.06z"
+                                        fill="#000" />
+                                </svg>
+                                <span class="skill-label">JavaScript</span>
+                            </div>
+                            <div class="skill-card" title="React">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="2" fill="#61DAFB" />
+                                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.5"
+                                        fill="none" />
+                                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.5"
+                                        fill="none" transform="rotate(60 16 16)" />
+                                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.5"
+                                        fill="none" transform="rotate(120 16 16)" />
+                                </svg>
+                                <span class="skill-label">React</span>
+                            </div>
+                            <div class="skill-card" title="Node.js">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 30c7.732 0 14-6.268 14-14S23.732 2 16 2 2 8.268 2 16s6.268 14 14 14z"
+                                        fill="#8CC84B" />
+                                    <path d="M16 6c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S21.523 6 16 6z"
+                                        fill="#689F38" />
+                                </svg>
+                                <span class="skill-label">Node.js</span>
+                            </div>
+                            <div class="skill-card" title="MongoDB">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.5 3.5c-.2-.5-.4-.9-.5-.9s-.3.4-.5.9c-.3.8-.7 2-1.4 3.6-2.4 5.4-4.6 8-6 9.8-1 1.3-1.6 2.1-1.6 3.6 0 4.4 3.6 8 8 8s8-3.6 8-8c0-1.5-.6-2.3-1.6-3.6-1.4-1.8-3.6-4.4-6-9.8-.7-1.6-1.1-2.8-1.4-3.6zm-.5 22.5c-.3 0-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5s.5.2.5.5v2c0 .3-.2.5.5.5z"
+                                        fill="#47A248" />
+                                    <path d="M16 25.5c.3 0 .5.2.5.5v2c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5z"
+                                        fill="#47A248" />
+                                </svg>
+                                <span class="skill-label">MongoDB</span>
+                            </div>
+                            <div class="skill-card" title="Git">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M30.59 14.87L17.7 1.98c-.78-.78-2.05-.78-2.83 0l-2.47 2.47 3.13 3.13c.83-.28 1.79-.09 2.45.57.67.67.86 1.65.56 2.49l3.02 3.02c.84-.3 1.82-.11 2.49.56a2.43 2.43 0 010 3.44 2.43 2.43 0 01-3.44 0 2.43 2.43 0 01-.52-2.66l-2.82-2.82v7.42c.59.29 1.12.71 1.54 1.26.42.55.7 1.2.84 1.9.14.7.13 1.42-.03 2.11a4.2 4.2 0 01-1.02 1.89c-.52.52-1.16.92-1.87 1.16a4.21 4.21 0 01-4.34-.91 4.21 4.21 0 01-1.16-1.87 4.21 4.21 0 011.19-4.37c.42-.38.91-.67 1.44-.87v-7.49a4.21 4.21 0 01-2.28-5.52L9.47 6.66l-8.05 8.05c-.78.78-.78 2.05 0 2.83l12.89 12.89c.78.78 2.05.78 2.83 0l12.82-12.82c.78-.78.78-2.05 0-2.83z"
+                                        fill="#F05032" />
+                                </svg>
+                                <span class="skill-label">Git</span>
+                            </div>
+                            <div class="skill-card" title="SQL">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="2" fill="#00758F" />
+                                    <path
+                                        d="M16 8c-4.4 0-8 1.8-8 4v8c0 2.2 3.6 4 8 4s8-1.8 8-4v-8c0-2.2-3.6-4-8-4zm0 2c3.3 0 6 1.3 6 2s-2.7 2-6 2-6-1.3-6-2 2.7-2 6-2zm0 12c-3.3 0-6-1.3-6-2v-2.3c1.5 1 3.7 1.3 6 1.3s4.5-.3 6-1.3V20c0 .7-2.7 2-6 2zm0-5c-3.3 0-6-1.3-6-2v-2.3c1.5 1 3.7 1.3 6 1.3s4.5-.3 6-1.3V15c0 .7-2.7 2-6 2z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">SQL</span>
+                            </div>
+                            <div class="skill-card" title="WordPress">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="14" fill="#21759B" />
+                                    <path
+                                        d="M4.7 16c0 4.5 2.6 8.4 6.4 10.3L5.8 11.5C5.1 12.9 4.7 14.4 4.7 16zm19.2-.5c0-1.4-.5-2.4-.9-3.1-.6-.9-1.1-1.7-1.1-2.6 0-1 .8-2 1.9-2h.1c-2-1.8-4.7-3-7.7-3-4 0-7.5 2-9.5 5.1.3 0 .5.1.8.1 1.2 0 3.2-.2 3.2-.2.6 0 .7.9.1 1 0 0-.7.1-1.4.1l4.4 13.1 2.6-7.9-1.9-5.2c-.6 0-1.2-.1-1.2-.1-.6 0-.5-1 .1-1 0 0 2 .2 3.2.2 1.2 0 3.2-.2 3.2-.2.6 0 .7.9.1 1 0 0-.7.1-1.4.1l4.4 13 1.2-4c.5-1.6.9-2.8.9-3.8zm-7.7 1.5l-3.6 10.5c1.1.3 2.2.5 3.4.5 1.4 0 2.7-.2 4-.7-.1 0-.1-.1-.2-.1l-3.6-10.2zm10.1-6.7c.3.9.5 1.8.5 3.3 0 1.3-.2 2.8-.9 4.6l-3.7 10.7c3.6-2.1 6-6 6-10.4 0-2.1-.5-4.1-1.5-5.9l-.4-2.3z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">WordPress</span>
+                            </div>
+                            <div class="skill-card" title="C++">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="2" fill="#00599C" />
+                                    <path d="M18 9.5c-1.3-.8-2.8-1.2-4.5-1.2-1.5 0-2.8.3-4 .9-1.2.6-2.1 1.5-2.8 2.6-.7 1.1-1 2.4-1 3.8 0 1.4.3 2.7 1 3.8.7 1.1 1.6 2 2.8 2.6 1.2.6 2.5.9 4 .9 1.7 0 3.2-.4 4.5-1.2v-3.2c-1.3 1-2.7 1.5-4.2 1.5-1.2 0-2.2-.4-3-1.1-.8-.7-1.2-1.7-1.2-2.9 0-1.2.4-2.2 1.2-2.9.8-.7 1.8-1.1 3-1.1 1.5 0 2.9.5 4.2 1.5v-3.2zm2 4.5h1.5v1.5h1.5v1.5h-1.5v1.5H20v-1.5h-1.5V15H20v-1.5zm5 0h1.5v1.5h1.5v1.5h-1.5v1.5H25v-1.5h-1.5V15H25v-1.5z" fill="white"/>
+                                </svg>
+                                <span class="skill-label">C++</span>
+                            </div>
+                            <div class="skill-card" title="Bootstrap">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="2" fill="#7952B3" />
+                                    <path
+                                        d="M8 6h8c3.3 0 6 2.7 6 6 0 1.8-.8 3.4-2 4.5 1.5 1 2.5 2.7 2.5 4.5 0 3.3-2.7 6-6 6H8V6zm8 9c1.7 0 3-1.3 3-3s-1.3-3-3-3h-5v6h5zm.5 9c1.9 0 3.5-1.6 3.5-3.5S18.4 17 16.5 17H11v7h5.5z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">Bootstrap</span>
+                            </div>
+                            <div class="skill-card" title="Tailwind CSS">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="2" fill="#06B6D4" />
+                                    <path
+                                        d="M16 8c-2.7 0-4.3 1.3-5 4 1-1.3 2.2-1.8 3.5-1.5 .8.2 1.3.7 1.9 1.3C17.3 12.7 18.4 14 21 14c2.7 0 4.3-1.3 5-4-1 1.3-2.2 1.8-3.5 1.5-.8-.2-1.3-.7-1.9-1.3C19.7 9.3 18.6 8 16 8zM11 14c-2.7 0-4.3 1.3-5 4 1-1.3 2.2-1.8 3.5-1.5.8.2 1.3.7 1.9 1.3C12.3 18.7 13.4 20 16 20c2.7 0 4.3-1.3 5-4-1 1.3-2.2 1.8-3.5 1.5-.8-.2-1.3-.7-1.9-1.3C14.7 15.3 13.6 14 11 14z"
+                                        fill="white" />
+                                </svg>
+                                <span class="skill-label">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Experience</span>
+                    <h2>My <span class="gradient-text">Journey</span></h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content glass-panel">
+                            <h3>Frontend Developer</h3>
+                            <p class="company">Freelance / Personal Projects</p>
+                            <p>Building responsive web applications, optimizing performance, and implementing modern UI
+                                designs. Working with React, Tailwind, and various libraries to deliver high-quality
+                                products.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <div class="timeline-content glass-panel">
+                            <h3>B.Sc Software Engineering</h3>
+                            <p class="company">University</p>
+                            <p>Gained a strong foundation in computer science principles, algorithms, and software
+                                development lifecycles. Specialized in web technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio</span>
+                    <h2>Selected <span class="gradient-text">Works</span></h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- WeightCut -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/weightcut.png" alt="WeightCut">
+                            <div class="overlay">
+                                <a href="https://weight-cut.vercel.app/" target="_blank" class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/weightCut" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>WeightCut</h3>
+                            <p>A comprehensive fitness tracking app with diet plans and workout routines.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Learn German -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/learn_german.png" alt="Learn German">
+                            <div class="overlay">
+                                <a href="https://learn-german-d6dtzm2g0-asad-ullahs-projects-20d2e18a.vercel.app/"
+                                    target="_blank" class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/Learn_German" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Learn German</h3>
+                            <p>An interactive language learning platform for German with lessons and quizzes.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Education</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- FitNest -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/fitnest.png" alt="FitNest">
+                            <div class="overlay">
+                                <a href="https://gym-wine-six.vercel.app/" target="_blank" class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/gym.git" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>FitNest</h3>
+                            <p>A modern gym website with comprehensive fitness plans and membership options.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Mustang -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/Mustang.png" alt="Mustang">
+                            <div class="overlay">
+                                <a href="https://mustang-alpha.vercel.app/" target="_blank" class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/mustang.git" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Mustang</h3>
+                            <p>A showcase website for the iconic Mustang car, featuring sleek animations.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Netflix Clone -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/Netflix.png" alt="Netflix Clone">
+                            <div class="overlay">
+                                <a href="https://netflix-three-sable.vercel.app/" target="_blank"
+                                    class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/netflix" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Netflix Clone</h3>
+                            <p>A replica of the Netflix UI, demonstrating complex layout skills.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>API</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- E-Commerce -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/ecommerce.png" alt="E-Commerce">
+                            <div class="overlay">
+                                <a href="https://ecommerce-website-mu-self.vercel.app/" target="_blank"
+                                    class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/Ecommerce_website/tree/main" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce</h3>
+                            <p>A fully functional online store with cart functionality.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Redux</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Simple Calculator -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/calculator.png" alt="Simple Calculator">
+                            <div class="overlay">
+                                <a href="https://cal-culator1.vercel.app/" target="_blank" class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/CalCulator1.git" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Simple Calculator</h3>
+                            <p>A clean and functional calculator for daily calculations.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Weather App -->
+                    <article class="project-card glass-card">
+                        <div class="project-img-container">
+                            <img src="assets/images/weather.png" alt="Weather App">
+                            <div class="overlay">
+                                <a href="https://weather-sage-three-97.vercel.app/" target="_blank"
+                                    class="btn-icon">🔗</a>
+                                <a href="https://github.com/Asadullah523/Weather.git" target="_blank"
+                                    class="btn-icon">💻</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>Real-time weather updates with a beautiful interface.</p>
+                            <div class="tags">
+                                <span>API</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper glass-panel">
+                    <div class="contact-content">
+                        <h2>Let's work <span class="gradient-text">together</span></h2>
+                        <p>Have a project in mind or just want to say hi? I'm always open to new opportunities.</p>
+                        <a href="mailto:asadullah88801@gmail.com" class="btn btn-primary btn-lg">Say Hello 👋</a>
+                        <div class="contact-links">
+                            <a href="mailto:asadullah88801@gmail.com" class="contact-link">
+                                <span class="icon">📧</span>
+                                <span>asadullah88801@gmail.com</span>
+                            </a>
+                            <a href="https://linkedin.com/in/asadullah3" target="_blank" class="contact-link">
+                                <span class="icon">💼</span>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Asad Ullah. Crafted with 💜.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
