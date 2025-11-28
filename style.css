@@ -35,6 +35,8 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 body {
@@ -44,6 +46,8 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     position: relative;
+    max-width: 100%;
+    width: 100%;
 }
 
 a {
@@ -93,6 +97,8 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .gradient-text {
@@ -245,6 +251,7 @@ img {
     max-width: 1200px;
     padding: 0 20px;
     gap: 50px;
+    box-sizing: border-box;
 }
 
 .hero-text {
@@ -492,8 +499,17 @@ img {
 /* =========================================
    5. SECTIONS COMMON
    ========================================= */
+main {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
 section {
     padding: var(--section-padding);
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 .section-header {
@@ -821,6 +837,8 @@ section {
     color: var(--text-primary);
     text-decoration: none;
     min-width: 300px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .contact-link:hover {
@@ -1087,8 +1105,10 @@ footer {
     }
 
     .contact-link {
-        min-width: auto;
+        min-width: 0;
         width: 100%;
+        max-width: 100%;
+        padding: 12px 20px;
     }
 
     .btn-lg {
@@ -1346,8 +1366,10 @@ footer {
     }
 
     .contact-link {
-        padding: 12px 20px;
+        padding: 12px 15px;
         font-size: 0.9rem;
+        min-width: 0;
+        max-width: 100%;
     }
 
     .contact-link .icon {
