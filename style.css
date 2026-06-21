@@ -714,6 +714,12 @@ section {
     transition: transform 0.5s ease;
 }
 
+.project-img-container .icon-img {
+    object-fit: contain;
+    background: radial-gradient(ellipse at center, #1a1030 0%, #0a0015 100%);
+    padding: 10px;
+}
+
 .project-card:hover .project-img-container img {
     transform: scale(1.1);
 }
