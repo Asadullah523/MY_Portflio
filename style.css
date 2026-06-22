@@ -274,6 +274,7 @@ img {
     font-family: var(--font-heading);
     font-size: 4.5rem;
     line-height: 1.1;
+    min-height: calc(4.5rem * 1.1 * 2);
     margin-bottom: 20px;
     font-weight: 700;
 }
@@ -858,9 +859,9 @@ section {
 }
 
 footer {
-    padding: 40px 0;
+    padding: 20px 0;
     border-top: 1px solid var(--border-light);
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .footer-content {
@@ -888,8 +889,15 @@ footer {
         gap: 40px;
     }
 
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .hero-text h1 {
         font-size: 3.5rem;
+        min-height: calc(3.5rem * 1.1 * 2);
     }
 
     .subtitle {
@@ -899,6 +907,7 @@ footer {
     .cta-group {
         justify-content: center;
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .socials-hero {
@@ -976,6 +985,7 @@ footer {
     .hero-text h1 {
         font-size: 2.8rem;
         line-height: 1.2;
+        min-height: calc(2.8rem * 1.2 * 2);
     }
 
     .subtitle {
@@ -989,14 +999,16 @@ footer {
 
     .cta-group {
         flex-direction: column;
+        align-items: center;
         gap: 15px;
         width: 100%;
     }
 
     .btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 280px;
         padding: 14px 32px;
+        text-align: center;
     }
 
     .orbit-container {
@@ -1123,9 +1135,14 @@ footer {
     }
 
     /* Footer */
+    footer {
+        padding: 16px 0;
+        margin-top: 10px;
+    }
+
     .footer-content {
         flex-direction: column;
-        gap: 15px;
+        gap: 8px;
         text-align: center;
     }
 }
@@ -1170,6 +1187,7 @@ footer {
     .hero-text h1 {
         font-size: 2.2rem;
         line-height: 1.2;
+        min-height: calc(2.2rem * 1.2 * 2);
     }
 
     .subtitle {
@@ -1389,8 +1407,8 @@ footer {
 
     /* Footer */
     footer {
-        padding: 30px 0;
-        margin-top: 30px;
+        padding: 14px 0;
+        margin-top: 8px;
     }
 
     .footer-content {
@@ -1402,6 +1420,7 @@ footer {
 @media (max-width: 360px) {
     .hero-text h1 {
         font-size: 1.9rem;
+        min-height: calc(1.9rem * 1.1 * 2);
     }
 
     .section-header h2 {
